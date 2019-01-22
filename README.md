@@ -1,5 +1,5 @@
 
-** This skill is only meant for Alexa devices which have a display screen and are enabled for APL (Alexa Presentation Language) **
+**This skill is only meant for Alexa devices which have a display screen and are enabled for APL (Alexa Presentation Language)**
 
 # paradise_explorer #AmazonAlexaMultimodalChallenge
 
