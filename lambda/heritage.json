@@ -1,0 +1,290 @@
+{
+    "north": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/taj.bmp",
+                        "dest": "Taj Mahal",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "The Taj Mahal a marvel on marble was built by the Mughal Emperor Shah Jahan in commemoration of his favourite wife, Empress Mumtaz Mahal. Shah Jahan married Arjumand Bano Begum (Mumtaz Mahal), grand daughter of Itimad-Ud-Daula, the Wazir (Prime Minister)  of Emperor Jahangir in 1612 AD. Mumtaz Mahal died in 1631 A.D. at the birth of her 14th child. The grief stricken emperor made all efforts in building the tomb in her memory, which is universally acknowledged as one of the most beautiful creations on earth. Artisans were requisitioned from all over the empire including Central Asia and Iran. While bricks for the internal framework were locally made. White marble for external surfaces was brought from Makrana, Rajasthan. The inscription on the northern facade records 1057A.H. (1647A.D.) as the date of its completion in 17 years . It is believed that Ustad Ahmad Lahori was the chief of the project while Ustad Isa Afandi prepared the site plan of the Taj Mahal. Amanat Ali Khan Shirazi is known for his calligraphic work and Ran Mal was the garden designer from Kashmir. The plan of Taj Mahal display strict bilateral symmetry. The central point is the tomb (rauza) and its four minarets, flanked by a mosque and assembly hall (Mehman Khana) The Taj is exactly as wide as it is high (55mtrs). A highlight of the monument is the exquisitely carved pietra dura inlaid with semi precious stones. The colour of the translucent marble keeps changing from dawn to midnight giving it a magical aura in keeping with Shah Jahan’s vision that the tomb and garden should represent paradise on earth. It is a unique man made manifestation of the glorious Mughal age and a wonder of the world. After his death in 1666 A.D., Shah Jahan was also buried beside his beloved wife in the Taj Mahal.",
+                        "shorttext": "The Taj Mahal, one of the seven wonders of the world, is a marvel on marble built by the Mughal Emperor Shah Jahan in commemoration of his favourite wife, Empress Mumtaz Mahal"
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/taj.jpg",
+                        "title": "Taj Mahal"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/india_gate.bmp",
+                        "dest": "India Gate",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "One of the main attractions of Delhi, India Gate was built as an ode to the fallen Indian soldiers of World War I. Designed by Sir Edwin Lutyens, the monument was completed in 1931. Another memorial, Amar Jawan Jyoti was added under the arch much later. The eternal flame burns day and night under the arch to remind the nation of soldiers who laid down their lives. During nightfall, India Gate is dramatically floodlit while the fountains nearby to make a lovely display with coloured lights and a large expanse of lush green lawns, which is a popular picnic spot.",
+                        "shorttext": "One of the main attractions of Delhi, India Gate was built as an ode to the fallen Indian soldiers of World War I."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/india_gate.jpg",
+                        "title": "India Gate"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "west": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/heritage/jhulta.bmp",
+                        "dest": "Jhulta Minar",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "Also known as the Shaking Minarets, they are within the Sidi Bashir Mosque built in 1452 AD. The Minars are three storeys high with carved balconies. These structures have left the best of architects and pioneering design engineers intrigued and in unresolved wonder. What one cannot unravel is when one minaret is shaken the other begins to vibrate.",
+                        "shorttext": "Jhulta Minar is also known as the Shaking Minaret, they are within the Sidi Bashir Mosque built in 1452 AD."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/heritage/Jultaminara.jpeg",
+                        "title": "Jhulta Minar"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/heritage/gateway.bmp",
+                        "dest": "Gateway of India",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "This colossal structure was constructed in 1924 and is located at the tip of Apollo Bunder, and overlooks the Mumbai harbour, bordered by the Arabian Sea. The Gateway of India was constructed to commemorate the visit of King George V and Queen Mary to Bombay facing the majestic Hotel Taj Mahal. It is also the departing point for ferries plying to Elephanta Island famed for the cave temple sculpted out of rocks and a UNESCO designated World Heritage Site. ",
+                        "shorttext": "Gateway of India was constructed in 1924 and is located at the tip of Apollo Bunder, and overlooks the Mumbai harbour, bordered by the Arabian Sea."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/heritage/Gateway_oF_India_zxnac.jpg",
+                        "title": "Gateway of India"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+	"northeast": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/heritage/apt.bmp",
+                        "dest": "Apatani Cultural Landscape",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "Surrounded by blue rolling hills and topographically cut off from the rest of the populated areas of the region, Ziro Valley presents an example of how co-existence of man and nature has been perfected over the centuries by the Apatani civilization. The valley, inhabited by the Apatani tribe, lies tucked in the lower ranges of the eastern Himalayas in the state of Arunachal Pradesh in north-east India. The Apatanis, one of the major ethnic groups of eastern Himalayas, have a distinct civilization with systematic land use practices and rich traditional ecological knowledge of natural resources management and conservation, acquired over the centuries through informal experimentation. The tribe is known for their colorful culture with various festivals, intricate handloom designs, skills in cane and bamboo crafts, and vibrant traditional village councils called bulyañ. This has made Ziro Valley a good example of a living cultural landscape where man and environment have harmoniously existed together in a state of interdependence even through changing times, such co-existence being nurtured by the traditional customs and spiritual belief systems. The community has evolved a unique skill of rice-fish cultivation where along with paddy, fish is also reared on the fields. This is further supplemented with millet Eleusine coracana reared on elevated partition bunds between the rice plots. The agro-ecosystems are nourished by nutrient wash-out from the surrounding hill slopes. Nutrient loss with crop harvest is replaced by recycling crop residues and use of organic wastes of the villages so that soil fertility is sustained year after year.",
+                        "shorttext": "Surrounded by blue rolling hills and topographically cut off from the rest of the populated areas of the region, Ziro Valley presents an example of how co-existence of man and nature has been perfected over the centuries by the Apatani civilization. The valley, inhabited by the Apatani tribe, lies tucked in the lower ranges of the eastern Himalayas in the state of Arunachal Pradesh in north-east India."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/heritage/Apatani.jpg",
+                        "title": "Apatani Cultural Landscape"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/heritage/themba.bmp",
+                        "dest": "Thembang Fortified Village",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "Thembang is an ancient village, which was said to be established before First century AD. The village is considered as the most ancient village in the region. Earlier the village was known as Yuchho-Pema-Chen, which means Lotus like village and it is far believed that the village was settled in Sat-Tsi, situated 10 Km away from the Thembang village. Because of an epidemic, nearly 90-nine percent of the villagers died, and then the closing villagers moved to the existing vicinity, that is at the altitude of 2300 above MSL.",
+                        "shorttext": "Thembang is an ancient village, which was said to be established before First century AD."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/heritage/thembang.jpg",
+                        "title": "Thembang Fortified Village"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "central": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/heritage/fort.bmp",
+                        "dest": "Man Singh Palace",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "Explore Man Singh Palace, built by Raja Mansingh between 1486 and 1517 inside the complex of Gwalior Fort. A splendid display of Hindu architecture, the palace has 2 open courtyards bordered by apartments on two floors. This four storeyed palace has large rooms, wherein some were venues for musical concerts, the others were for the royal ladies to sit and enjoy the music. The blue paintings on the walls with touch of green and gold look striking. There are 2 underground or basement floors with circular cells. They were used as prisons. The palace is also surrounded by other monuments like Jehangir Mahal, Shah Jahan Mahal and the Gujari Mahal. A special sound and light show is organized every evening for the visiting tourists at the palace.",
+                        "shorttext":"Man Singh Palace, was built by Raja Mansingh between 1486 and 1517 inside the complex of Gwalior Fort."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/gwalior_fort.jpg",
+                        "title": "Man Singh Palace"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/heritage/tansen_bm.bmp",
+                        "dest": "Tomb of Tansen",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "One of the greatest musicians of India and an eminent vocalist in the courts of Akbar in the medieval period, Tansen was also among one of the nine gems of the Mughal court. Tansen was believed to create magic with his music and cause rains and even enchant animals by his music. He was a student of Mohammad Ghaus who taught him Hindustani classical music. He was a proponent of Dhrupad style and he developed the Gwalior Gharana style of music. He was buried near his guru and this burial site is a beautiful piece of architecture. The annual Tansen Music Festival is held here every year in the month of November where prominent musicians from all over the country come and perform various classical shows.",
+                        "shorttext": "Tansen was among one of the nine gems of the Mughal court and one of the greatest musicians of India in the medieval period."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/tansen_tomb.jpg",
+                        "title": "Tomb of Tansen"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "east": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/heritage/memo.bmp",
+                        "dest": "Victoria Memorial",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "The monument which draws the largest crowds to Kolkata is the Victoria Memorial, dedicated to the memory of Queen Victoria. It houses an excellent collection of British Raj memorabilia including paintings and manuscripts. The foundation stone of this domed structure was laid by the then Prince of Wales later King George V in 1906.",
+                        "shorttext": "The monument which draws the largest crowds to Kolkata is the Victoria Memorial, dedicated to the memory of Queen Victoria. It houses an excellent collection of British Raj memorabilia including paintings and manuscripts."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/heritage/victoria.jpg",
+                        "title": "Victoria Memorial"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/heritage/vait.bmp",
+                        "dest": "Vaital Deul",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "This is architecturally striking. It is a temple of Goddess Chamunda Kapali built in the 8th Century A.D. and has a tantric influence. This represents altogether a different concept, and its shape which does not conform to the dominant Odishan type, might be traced to that of a Buddhist Chaitya hall. The shape of the Vaital has been derived from the Rathas of Mahabalipuram.",
+                        "shorttext": "Vaital Deul is a temple of Goddess Chamunda built in the 8th Century A.D."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/heritage/Vaitala_Mandira.jpg",
+                        "title": "Vaital Deul"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+     "south": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/heritage/bang.bmp",
+                        "dest": "Bangalore Palace",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "Situated in the heart of the city, in the Palace Gardens, Bangalore Palace is a place worth visiting. This palace was constructed in the year of 1887 by the Wadiyar Dynasty. Known for its mesmerizing architecture, beautiful wooden carvings, this palace captivates all its visitors with its incomparable beauty. Built in the Tudor-style architecture, it resembles the medieval castles of Normandy and England to some extent. It is said that King Chamaraja Wodeyar of Wodeyar dynasty was quite impressed by the Windsor Castle of London during one of his trips to England. Hence he built the Bangalore Palace on the similar lines.",
+                        "shorttext": "Bangalore palace palace was constructed in the year of 1887 by the Wadiyar Dynasty, it is known for its mesmerizing architecture and beautiful wooden carvings."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/heritage/bangalore_place.jpg",
+                        "title": "Bangalore Palace"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/heritage/char.bmp",
+                        "dest": "Char Minar",
+                        "type": "\"Heritage Sites\"",
+                        "msg1": "Say 'next' for next site",
+                        "msg2": "Say 'back' for last site",
+                        "longtext": "The most prominent landmark located right in the heart of Hyderabad is a four-sided archway with four soaring minarets of 48.7m, Charminar. Hyderabad’s signature building, it was built in 1591 by Mohammed Quli Qutub Shah, the founder of Hyderabad. You will find 45 prayer spaces and a mosque in Charminar. The imposing structure looks awe inspiring during the night when it is illuminated. The essence of Charminar lies in four things - the laid back crowds, the packed markets, the lip smacking biryani and the Irani chai!",
+                        "shorttext": "Char minar is the most prominent landmark located right in the heart of Hyderabad is a four-sided archway with four soaring minarets."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/heritage/char_minar.jpg",
+                        "title": "Char Minar"
+                        }
+                    ]
+                }  
+            }
+        }
+    ]
+}

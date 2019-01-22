@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "bodyTemplate7Data": {
+                "title": "Paradise Explorer",
+                "type": "object",
+                "ftsize": "20dp",
+                "properties":{
+                    "sources": [
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/assets/index.jpg",
+                        "size": "large"
+                    }
+                ]
+                    
+                }
+                
+            
+            }
+        }
+    ]
+}

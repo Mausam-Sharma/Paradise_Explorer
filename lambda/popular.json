@@ -1,0 +1,647 @@
+{
+    "north": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/india_gate.bmp",
+                        "dest": "Delhi",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Delhi, the capital of India and one of the oldest cities of the world, is unlike any other city on the planet. It’s a place that not only touches your pulse but even fastens it to a frenetic speed. With a history that goes back many centuries & empires, Delhi showcases an ancient culture and a rapidly modernising country. From the labyrinth of narrow lanes, old havelis and colourful bazaars of Old Delhi to the best features of a modern city such as a metro system, gleaming malls, bustling markets and fabulous eating places; the past and the present mix seamlessly together in Delhi. Centuries-old monuments are a part of the city’s daily life. An array of historical sites including the World Heritage Sites of Red Fort, Humayun’s Tomb and Qutub Minar rest amongst several historical treasures in Delhi’s possession. Add to this the presence of diverse cultures, sprawling greenery, rich architecture and a famed cuisine, and Delhi becomes one of the undisputed highlights of the country."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/india_gate.jpg",
+                        "title": "India Gate"
+                        },
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/Humanyun.jpg",
+                        "title": "Humayun's Tomb"
+                        },
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/qutab.jpg",
+                        "title": "Qutab Minar"
+                        },
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/red_fort.jpg",
+                        "title": "Red Fort"
+                        },
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/lotus.jpg",
+                        "title": "Lotus Temple"
+                        },
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/delhi/akshardham.jpg",
+                        "title": "Akshardham Temple"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/udaipur/img.bmp",
+                        "dest": "Udaipur",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Udaipur was founded in 1553 by Maharana Udai Singh II as the new capital of the Mewar. Set amidst the Aravalli Ranges, Udaipur Known for its picturesque lakes and is  known as 'the city of lakes'. The elevated hills and the beautiful lakes make a picture-perfect backdrop to the city. Udaipur is regarded as one of the most romantic cities of the World and is often referred to as the 'Venice of the East'. It is one of the most sought after tourist destination of the state of Rajasthan. Udaipur's kaleidoscope of fairy-tale palaces, lakes, temples, gardens, vibrant and colourful festivals and narrow lanes strewn with stalls, carry the flavor of a heroic past, epitomizing valor and chivalry. Udaipur is easily accessible by rail, road and air from all the major cities and towns of India including Delhi, Mumbai and Jaipur."                
+                    },
+                    "sources": [
+                        {
+                            "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/udaipur/lake_palace.jpg",
+                            "title": "Lake Palace"
+                        },
+                        {
+                            "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/udaipur/jagmandir.jpg",
+                            "title": "Jag Mandir Palace"
+                        },
+                        {
+                            "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/udaipur/haldighati.jpg",
+                            "title": "Haldighati"
+                        },
+                        {
+                            "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/udaipur/eklingji.jpg",
+                            "title": "Eklingji Temple"
+                        },
+                        {
+                            "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/udaipur/city_palace.jpg",
+                            "title": "City Palace"
+                        },
+                        {
+                            "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/udaipur/LakePichola.jpg",
+                            "title": "Lake Pichola"
+                        }
+                    ]
+                }   
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                "ftsize": "20dp",
+                "initial": {
+                "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/ladakh/img.bmp",
+                "dest": "Ladakh",
+                "type": "\"popular destinations\"",
+                "msg1": "Say 'next' for next destination",
+                "msg2": "Say 'back' for last destination",
+                "longtext": "Set amidst the epic Himalayas, Ladakh is a rustic and heavenly beautiful travel destination in the state of Jammu & Kashmir. The rugged valleys and mountains, winding roads coupled with the vibrant cultural life maintain the exuberance and charm of this region. The iconic Magnetic Hill, the turquoise coloured Pangong Lake, the confluence of two mystical rivers, ancient and awe inspiring monasteries and the highest passes are a few of the marvelous attractions of Leh and Ladakh in general. The wide array of trekking routes will satiate your soul and enrich the senses. The moon like desert mountains continue to be an exceptional destination for adventure seekers and admirers of Buddhism and phenomenal mountain vistas. So, pack some travel essentials with you to explore the most enthralling destination of India and bring back souvenirs of endless memories with you."              
+                },
+                "sources": [
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/ladakh/Alchi_monastery.jpg",
+                        "title": "Alchi Monastery"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/ladakh/tso_moriri_lake.jpg",
+                        "title": "Tso Moriri Lake"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/ladakh/Changla_pass.jpg",
+                        "title": "Changla Pass"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/ladakh/leh_palace.jpg",
+                        "title": "Leh Palace"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/ladakh/magnetic_hill.jpg",
+                        "title": "Magnetic Hill"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/ladakh/pangong.jpg",
+                        "title": "Pangong Tso Lake"
+                    }
+                ]
+            }
+                
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                "ftsize": "20dp",
+                "initial": {
+                "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/srinagar/img.bmp",
+                "dest": "Srinagar",
+                "type": "\"popular destinations\"",
+                "msg1": "Say 'next' for next destination",
+                "msg2": "Say 'back' for last destination",
+                "longtext": "Srinagar, the summer capital of Jammu and Kashmir is located in the heart of the Kashmir valley at an altitude of 1,730 m above sea level. Spread on both sides of the river Jhelum the city is famous for its natural beauty, gardens, waterfronts and houseboats. Srinagar is called the city of lakes and the Venice of the East, fascinating tourists from centuries with its beautiful picturesque Himalayan backdrop, glittering lakes that are surrounded by houseboats and Shikaras and the majesty of Mughal architecture. The very absence of order in the location of the houses and their tumbled down appearance add a peculiar charm to the scenery. It has its own quaint lifestyle, telling a panoramic fairytale tour through the snow-capped mountains and Chinar trees, while enjoying the adventurous pleasures of hiking, mountain biking, and rafting. The city is also famous for traditional Kashmiri handicrafts and dried fruits."             
+                },
+                "sources": [
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/srinagar/chashme_shahi.jpg",
+                        "title": "Chashme Shahi"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/srinagar/Wular_Lake.jpg",
+                        "title": "Wular Lake"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/srinagar/hari_parbat_fort.jpg",
+                        "title": "Hari Parbat Fort"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/srinagar/dal_lake.jpg",
+                        "title": "Dal Lake"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/srinagar/shalimar_gardens.jpg",
+                        "title": "Shalimar Gardens"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/srinagar/tulip_garden.jpg",
+                        "title": "Tulip Gardens"
+                    }
+                ]
+            }
+                
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                "ftsize": "20dp",
+                "initial": {
+                "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/taj.bmp",
+                "dest": "Agra",
+                "type": "\"popular destinations\"",
+                "msg1": "Say 'next' for next destination",
+                "msg2": "Say 'back' for last destination",
+                "longtext": "Agra is an ancient city on the banks of the River Yamuna. It finds mention in the Mahabharata but gained importance as the capital of the Mughal Empire from 1556 - 1658. It is on the Golden Triangle tourist circuit with Delhi and Jaipur. It is famous for its Mughal architecture and for being home to one of the Seven Wonders of the World, the Taj Mahal - a monument of incredible elegance and architectural perfection. Agra has many other famous archeological sites and is famous for its marble inlay work and its leather industry that manufactures shoe uppers for some of the best shoe companies in the world."               
+                },
+                "sources": [
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/taj.jpg",
+                        "title": "Taj Mahal"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/sikri.jpg",
+                        "title": "Fatehpur Sikri"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/sikandra.jpg",
+                        "title": "Sikandra"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/ram_bagh.jpg",
+                        "title": "Ram Bagh"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/jama.jpg",
+                        "title": "Jama Masjid"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/agra/fort.jpg",
+                        "title": "Agra Fort"
+                    }
+                ]
+            }
+                
+            }
+        } 
+    ],
+	"west": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/mumbai/img.bmp",
+                        "dest": "Mumbai",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Mumbai is in all ways a mega-city driven by power, wealth, glamour and fame. It is also a city with strong historical links, wonderful British architecture, museums, beaches, places of worship, and above all, a true galaxy of stars where Bollywood reigns supreme. The seven islands that came to constitute Mumbai were earlier home to communities of fishing colonies. For centuries, the islands were under the control of successive indigenous empires before being ceded to the Portuguese and subsequently to the British East India Company. During the mid-18th century, Bombay was reshaped with the construction of major roads and railways, the reclamation project transformed Bombay into a major seaport on the Arabian Sea. Upon India’s independence in 1947 the city was incorporated into Bombay State. In 1960, following the Sanyukta Maharashtra movement, a new state of Maharashtra was created with Bombay as the capital. The city was renamed Mumbai in 1996. And in this short period of development, the city has transformed into the commercial and entertainment capital of India."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/mumbai/cst.jpeg",
+                        	"title": "Chhatrapati Shivaji Terminus"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/mumbai/elephanta.jpg",
+                        	"title": "Elephanta Caves"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/mumbai/gateway.jpg",
+                        	"title": "Gateway Of India"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/mumbai/haji_ali.jpg",
+                        	"title": "Haji Ali Mosque"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/mumbai/lonavala.jpg",
+                        	"title": "Lonavala"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/mumbai/siddhivinayak.jpg",
+                        	"title": "Siddhivinayak Temple"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/kutch/img.bmp",
+                        "dest": "Kutch",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Centuries-old traditions wrapped with spectacular nature define the Kutch region in Gujarat. A large part of this district is known as the Rann of Kutch which is shallow wetland which submerges in water during the rainy season and becomes dry during other seasons. The Rann is famous for its marshy salt flats which become snow white after the shallow water dries up. The district is also famous for the ecologically important Banni grasslands with their seasonal marshy wetlands which form the outer belt of the Rann of Kutch. Kutch District is surrounded by the Gulf of Kutch and the Arabian Sea in the south and west, while the northern and eastern parts are surrounded by the Great and Little Rann  of  Kutch. The walled city of Bhuj is the headquarters of the Kutch district."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/kutch/lakhpat_fort.jpg",
+                        	"title": "Lakhpat Fort"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/kutch/pingleshwar.jpg",
+                        	"title": "Pingleshwar Beach"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/kutch/rann.jpg",
+                        	"title": "Rann of Kutch"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/kutch/swami_narayan_temple.jpg",
+                        	"title": "Swami Narayan Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/kutch/Narayan-Sarovar-temple.jpg",
+                        	"title": "Narayan Sarovar Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/west/kutch/PragMahal.jpg",
+                        	"title": "Prag Mahal"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+	"northeast": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/shillong/img.bmp",
+                        "dest": "Shillong",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Shillong is a hill station and the capital of Meghalaya and the only hill station in the country that is accessible from all directions. The name Shillong is derived from U-Shyllong, a powerful deity and is situated at an altitude of 1,491m above sea level. The city lies in the centre of a plateau and is surrounded by hills. This beautiful city is 103kms from Guwahati. The presence of many well reputed educational institutions, many of them established by various missionary groups make Shillong the hub of education for the entire north-east. Apart from the natural beauty, Shillong also acts as the gateway to Meghalaya, the state famous for heavy rainfall, caves, tallest waterfalls, beautiful landscapes and amazing people and their culture. Shillong is also fast emerging as an education hub for the entire northeastern region."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/shillong/Root-bridges.jpg",
+                        	"title": "Root Bridges"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/shillong/don_bosco.jpg",
+                        	"title": "Don Bosco Centre"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/shillong/elephant.jpg",
+                        	"title": "Elephant falls"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/shillong/lady_hydari_park.jpg",
+                        	"title": "Lady Hydari Park"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/shillong/shillong_view_point.jpg",
+                        	"title": "Shillong View Point"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/shillong/umiam-lake.jpg",
+                        	"title": "Umiam Lake"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/guwahati/img.bmp",
+                        "dest": "Guwahati",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Guwahati is the largest city of Assam, situated on the South bank of the Brahmaputra River. The region is synonymous with breathtaking scenic beauty, rarest flora and fauna, mighty waterways, and a land of fairs and festivals. Guwahati is a principal centre of socio-cultural, industrial, trade and commerce activities of the entire region. The city is the gateway to the enchanting Northeast India. The Light of the East, Pragjyotishpura, as it was known once upon a time, is said to have been a vast kingdom during the period of the Mahabharata. Today, the region is an incomparable destination for various adventure activities."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/guwahati/KamakhyaTemple.jpg",
+                        	"title": "Kamakhya Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/guwahati/Basistha-Temple.jpg",
+                        	"title": "Basistha Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/guwahati/Umananda-Temple.jpg",
+                        	"title": "Umananda Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/guwahati/assam_state_zoo.jpg",
+                        	"title": "Assam State Zoo"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/guwahati/madan_kamdev_temple.jpg",
+                        	"title": "Madan Kamdev Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/guwahati/pobitorawildlifesanctuary.jpg",
+                        	"title": "Pobitora Wildlife Sanctuary"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+	"central": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/indore/img.bmp",
+                        "dest": "Indore",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Indore is a tier 2 city, the largest city of the Indian state of Madhya Pradesh by population. It serves as the headquarters of both Indore District and Indore Division. A central power city, Indore exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment and has been described as the commercial capital of the state. Located on the southern edge of the Malwa Plateau, the city is located 190 km west of the state capital of Bhopal.A trading hub between the Deccan and Delhi in the 16th century, the city of Indore was discovered by Rao Nandlal Chaudhary in mid-1710. Rani Ahilya Bai Holkar, with her keen interest in education and planning built this city.Today, Indore offers a spectacle of majestic palaces co-existing with commercial centre. Apart from being considered the state's commercial capital, it is also known for a mouth-watering culinary experience. It is in the first 20 cities to be developed as smart cities."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/indore/annapurna_temple.jpg",
+                        	"title": "Annapurna Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/indore/kaanch_mandir.jpg",
+                        	"title": "Kaanch Mandir"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/indore/lal_bagh_palace.jpg",
+                        	"title": "Lal Bagh Palace"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/indore/mahatma_gandhi_hall.jpg",
+                        	"title": "Mahatma Gandhi Hall"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/indore/rajwada.jpg",
+                        	"title": "Rajwada"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/indore/regional_park_indore.jpg",
+                        	"title": "Regional Park indore"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/img.bmp",
+                        "dest": "Gwalior",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Snuggled in the heart of Madhya Pradesh, the beautiful city of Gwalior enjoys an interesting appeal to visitors. The city’s old world charm, historical monuments and progressive development go side by side alluring visitors. Blessed with fine examples from history, this city is a unique and timeless example of a glorious past waiting to be explored.Gwalior's history has roots in a legend. In the 8th century, a local chief by the name of Suraj Sen was critically ill and was cured by a hermit called Gwalipa. In gratitude, he fulfilled the wish of building a city which he named after the saint. Since then the city has a tradition of being a capital city.Gwalior holds an unparalleled reputation in Sangeet, and has retained Indian traditions and the wealth of music intact over the years. The Gwalior Gharana is one of the oldest Khayal Gharanas and the one to which most classical Indian musicians can trace the origin of their style. Legendary musicians like Tansen and Baiju Bawara belonged to Gwalior."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/Teli_Ka_Mandir.jpg",
+                        	"title": "Teli Ka Mandir"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/gujari_mahal.jpg",
+                        	"title": "Gujari Mahal"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/gwalior_fort.jpg",
+                        	"title": "Gwalior Fort"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/saas_bahu_temple.jpg",
+                        	"title": "Saas Bahu Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/sonagiri.jpg",
+                        	"title": "Sonagiri"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/central/gwalior/tansen_tomb.jpg",
+                        	"title": "Tansen Tomb"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+	"east": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/kolkata/img.bmp",
+                        "dest": "Kolkata",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Kolkata, or Calcutta as it was formerly called, is the present capital of the eastern state of West Bengal and one of the most densely populated cities in India. Kolkata became a British trading post in the last part of the 17th Century. The city that once served as the showpiece capital of the British power in India is noted for its colonial buildings including the grand Victoria Memorial. Other important sights include the Howrah Bridge, an engineering marvel that links the city and Howrah Station, and the Indian Museum. Gateway to eastern India and home to prominent intellectuals, the city is known for its easy pace and intellectual prowess."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/kolkata/belurMath.jpg",
+                        	"title": "Belur Math"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/kolkata/dakshineshwar.jpg",
+                        	"title": "Dakshineshwar Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/kolkata/kalighat_temple.jpg",
+                        	"title": "Kalighat Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/kolkata/national_library.jpg",
+                        	"title": "National Library"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/kolkata/victoria_memorial.jpg",
+                        	"title": "Victoria Memorial"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/kolkata/writerBuilding.jpg",
+                        	"title": "Writer's Building"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/puri/img.bmp",
+                        "dest": "Puri",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "One of the four major Hindu pilgrim centers, Puri's landscape is dominated by the 65-meter high Jagannath Temple, built in the 12thCentury. Over a million people flock to this holy place every year to participate in the famous Rath Yatra or Car Festival held here. This annual ritual spread over summer and monsoon season, makes Puri a must-visit destination for pilgrims. To the tourists, Puri is well-known for its golden beaches with miles of yellow sand, blue waves, white surf, and bright sunshine. Best time to visit is between October and March."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/puri/Gundicha_temple.jpg",
+                        	"title": "Gundicha Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/puri/chilika_lake.jpg",
+                        	"title": "Chilika Lake"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/puri/golden_beach.jpg",
+                        	"title": "Golden Beach"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/puri/jagannath.jpg",
+                        	"title": "Sri Jagannath Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/puri/konark_sun_temple.jpg",
+                        	"title": "Konark Sun Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/east/puri/sweta_ganga.jpg",
+                        	"title": "Sweta ganga"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "south": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/chennai/img.bmp",
+                        "dest": "Chennai",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "Called the ‘Cultural Capital of India’ for its deep-rooted traditions and age-old heritage, Chennai also has a young heart. It has grown into a charming city within a span of just over 350 years. Gaining recognition when, in 1639, Francis Day and Andrew Cogan, agents of the English East India Company, acquired a strip of land, called Chennapatnam on lease from the Vijayanagar King. Fort St. George that serves as the Government Secretariat today, was built to set up a factory serving as a nucleus for British settlements. The city was known as Madras till 1996 and later renamed as Chennai. Today this buoyant metropolis is a blend of the old and the new, the traditional and the modern. Spread over 200 sq km with the Bay of Bengal on the east, the city is the gateway to the rest of South India."
+                    },
+                    "sources": [
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/chennai/STmary_church.jpg",
+                        	"title": "St. Mary's Church"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/chennai/cholamandal_arts_museum.jpg",
+                        	"title": "Cholamandal Arts Museum"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/chennai/kapaleeswarar.jpg",
+                        	"title": "Kapaleeswarar Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/chennai/marina_beach.jpg",
+                        	"title": "Marina Beach"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/chennai/pulicat_lake.jpg",
+                        	"title": "Pulicat Lake"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/chennai/semmozhi_poonga.jpg",
+                        	"title": "Semmozhi Poonga"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/bangalore/img.bmp",
+                        "dest": "Bangalore",
+                        "type": "\"popular destinations\"",
+                        "msg1": "Say 'next' for next destination",
+                        "msg2": "Say 'back' for last destination",
+                        "longtext": "The capital of Karnataka State, Bengaluru, also known as the City of Gardens, is one of the most attractive cities in India with its beautiful parks, avenues and impressive buildings. Historically known as Vengaluru, Bendakaluru - village of boiled beans, and as the anglicized Bangalore, Bengaluru has moved to be city that is cosmopolitan in nature and a nerve center of the Arts and Culture as well. The once-sedate cantonment settlement of the British has now spread way beyond the mud fort and the four towers constructed by Kempe Gowda in 1537. With its booming economy and racy lifestyle, the capital of Karnataka has metamorphosed from a sleepy Garden City into one of India's fastest growing, accommodating and cosmopolitan cities. Surrounded by weekend getaways, Bengaluru makes an ideal hub for visitors who want to travel to the many hill stations and coastal towns of South India."
+                    },
+                    "sources": [
+                        {
+                            "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/bangalore/bangalore_palace.jpg",
+                            "title": "Bangalore Palace"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/bangalore/bull_temple.jpg",
+                        	"title": "Bull Temple"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/bangalore/shravanabelagola.jpg",
+                        	"title": "Shravanabelagola"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/bangalore/shreyas_yoga_rereat.jpg",
+                        	"title": "Shreyas Yoga Rereat"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/bangalore/tipu_sultan_palace.jpg",
+                        	"title": "Tipu Sultan Palace"
+                        },
+                        {
+                        	"url": "https://s3.amazonaws.com/explore-paradise-alexa/south/bangalore/Chunchi-Falls.jpg",
+                        	"title": "Chunchi Falls"
+                        }
+                    ]
+                }  
+            }
+        }
+    ]
+}

@@ -1,0 +1,231 @@
+{
+        "type": "APL",
+        "version": "1.0",
+        "theme": "dark",
+        "import": [
+            {
+                "name": "alexa-layouts",
+                "version": "1.0.0"
+            }
+        ],
+        "resources": [
+        	{
+            	"description": "All page resources",
+            	"strings": {
+                	"pagesBackground": "https://s3.amazonaws.com/explore-paradise-alexa/assets/background.png"
+            	}
+        	},
+            {
+                "description": "Stock color for the light theme",
+                "colors": {
+                    "colorTextPrimary": "#151920"
+                }
+            },
+            {
+                "description": "Stock color for the dark theme",
+                "when": "${viewport.theme == 'dark'}",
+                "colors": {
+                    "colorTextPrimary": "#f0f1ef"
+                }
+            },
+            {
+                "description": "Standard font sizes",
+                "dimensions": {
+                    "textSizeBody": 48,
+                    "textSizePrimary": 27,
+                    "textSizeSecondary": 23,
+                    "textSizeSecondaryHint": 25
+                }
+            },
+            {
+                "description": "Common spacing values",
+                "dimensions": {
+                    "spacingThin": 6,
+                    "spacingSmall": 12,
+                    "spacingMedium": 24,
+                    "spacingLarge": 48,
+                    "spacingExtraLarge": 72
+                }
+            },
+            {
+                "description": "Common margins and padding",
+                "dimensions": {
+                    "marginTop": 10,
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "marginBottom": 10
+                }
+            }
+        ],
+        "styles": {
+            "textStyleBase": {
+                "description": "Base font description; set color and core font family",
+                "values": [
+                    {
+                        "color": "@colorTextPrimary",
+                        "fontFamily": "Amazon Ember"
+                    }
+                ]
+            },
+            "textStyleBase0": {
+                "description": "Thin version of basic font",
+                "extend": "textStyleBase",
+                "values": {
+                    "fontWeight": "100"
+                }
+            },
+            "textStyleBase1": {
+                "description": "Light version of basic font",
+                "extend": "textStyleBase",
+                "values": {
+                    "fontWeight": "300"
+                }
+            },
+            "mixinBody": {
+                "values": {
+                    "fontSize": "@textSizeBody"
+                }
+            },
+            "mixinPrimary": {
+                "values": {
+                    "fontSize": "@textSizePrimary"
+                }
+            },
+            "mixinSecondary": {
+                "values": {
+                    "fontSize": "@textSizeSecondary"
+                }
+            },
+            "textStylePrimary": {
+                "extend": [
+                    "textStyleBase1",
+                    "mixinPrimary"
+                ]
+            },
+            "textStyleSecondary": {
+                "extend": [
+                    "textStyleBase0",
+                    "mixinSecondary"
+                ]
+            },
+            "textStyleBody": {
+                "extend": [
+                    "textStyleBase1",
+                    "mixinBody"
+                ]
+            },
+            "textStyleSecondaryHint": {
+                "values": {
+                    "fontFamily": "Bookerly",
+                    "fontStyle": "italic",
+                    "fontSize": "@textSizeSecondaryHint",
+                    "color": "@colorTextPrimary"
+                }
+            }
+        },
+        "layouts": {},
+        "mainTemplate": {
+            "parameters": [
+                "payload"
+            ],
+            "items": [
+                {
+                    "when": "${viewport.shape == 'round'}",
+                    "type": "Container",
+                    "direction": "column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "scale": "best-fill",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh"
+                        },
+                        {
+                            "type": "Container",
+                            "grow": 1,
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                            "paddingBottom": "3vw",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "source": "${payload.bodyTemplate7Data.properties.sources[0].url}",
+                                    "scale": "best-fill",
+                                    "width": "100vw",
+                                    "height": "85vh",
+                                    "align": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "height": "15vh",
+                            "width": "100vw",
+                            "alignItems": "center",
+                            "justifyContent": "start",
+                            "item": [
+                                {
+                                    "type": "Text",
+                                    "text": "${payload.bodyTemplate7Data.title}",
+                                    "fontSize": "${payload.bodyTemplate7Data.ftsize}",
+                                    "textAlign": "center",
+                                    "fontStyle": "italic",
+                                    "textAlignVertical": "center"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "scale": "best-fill",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh"
+                        },
+                        {
+                            "type": "Container",
+                            "direction": "row",
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                            "paddingLeft": "2vw",
+                            "paddingRight": "2vw",
+                            "paddingTop": "2vh",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "height": "83vh",
+                                    "width": "98vw",
+                                    "source": "${payload.bodyTemplate7Data.properties.sources[0].url}",
+                                    "scale": "best-fill",
+                                    "align": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "height": "15vh",
+                            "width": "100vw",
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                            "item": [
+                                {
+                                    "type": "Text",
+                                    "text": "${payload.bodyTemplate7Data.title}",
+                                    "textAlign": "center",
+                                    "fontStyle": "italic",
+                                    "textAlignVertical": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+}

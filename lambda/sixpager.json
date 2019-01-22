@@ -1,0 +1,1573 @@
+{
+        "type": "APL",
+        "version": "1.0",
+        "theme": "dark",
+        "import": [
+            {
+                "name": "alexa-layouts",
+                "version": "1.0.0"
+            }
+        ],
+        "resources": [
+            {
+                "description": "All page resources",
+                "strings": {
+                    "pagesBackground": "https://s3.amazonaws.com/explore-paradise-alexa/assets/background.png"
+                }
+            }
+        ],
+        "styles": {
+        },
+        "layouts": {
+            "Page1": {
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Container",
+                                "grow": 1,
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingBottom": "3vw",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "source": "${payload.recipe.properties.sources[0].url}",
+                                        "scale": "best-fill",
+                                        "width": "100vw",
+                                        "height": "85vh",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "start",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[0].title}",
+                                        "fontSize": "${payload.recipe.properties.ftsize}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "direction": "row",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingLeft": "2vw",
+                                "paddingRight": "2vw",
+                                "paddingTop": "2vh",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "height": "83vh",
+                                        "width": "98vw",
+                                        "source": "${payload.recipe.properties.sources[0].url}",
+                                        "scale": "best-fill",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[0].title}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page2": {
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Container",
+                                "grow": 1,
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingBottom": "3vw",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "source": "${payload.recipe.properties.sources[1].url}",
+                                        "scale": "best-fill",
+                                        "width": "100vw",
+                                        "height": "85vh",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "start",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[1].title}",
+                                        "fontSize": "${payload.recipe.properties.ftsize}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "direction": "row",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingLeft": "2vw",
+                                "paddingRight": "2vw",
+                                "paddingTop": "2vh",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "height": "83vh",
+                                        "width": "98vw",
+                                        "source": "${payload.recipe.properties.sources[1].url}",
+                                        "scale": "best-fill",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[1].title}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page3": {
+               
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Container",
+                                "grow": 1,
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingBottom": "3vw",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "source": "${payload.recipe.properties.sources[2].url}",
+                                        "scale": "best-fill",
+                                        "width": "100vw",
+                                        "height": "85vh",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "start",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[2].title}",
+                                        "fontSize": "${payload.recipe.properties.ftsize}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "direction": "row",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingLeft": "2vw",
+                                "paddingRight": "2vw",
+                                "paddingTop": "2vh",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "height": "83vh",
+                                        "width": "98vw",
+                                        "source": "${payload.recipe.properties.sources[2].url}",
+                                        "scale": "best-fill",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[2].title}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page7": {
+                
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Container",
+                                "grow": 1,
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingBottom": "3vw",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "source": "${payload.recipe.properties.sources[3].url}",
+                                        "scale": "best-fill",
+                                        "width": "100vw",
+                                        "height": "85vh",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "start",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[3].title}",
+                                        "fontSize": "${payload.recipe.properties.ftsize}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "direction": "row",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingLeft": "2vw",
+                                "paddingRight": "2vw",
+                                "paddingTop": "2vh",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "height": "83vh",
+                                        "width": "98vw",
+                                        "source": "${payload.recipe.properties.sources[3].url}",
+                                        "scale": "best-fill",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[3].title}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page8": {
+                
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Container",
+                                "grow": 1,
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingBottom": "3vw",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "source": "${payload.recipe.properties.sources[4].url}",
+                                        "scale": "best-fill",
+                                        "width": "100vw",
+                                        "height": "85vh",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "start",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[4].title}",
+                                        "fontSize": "${payload.recipe.properties.ftsize}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "direction": "row",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingLeft": "2vw",
+                                "paddingRight": "2vw",
+                                "paddingTop": "2vh",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "height": "83vh",
+                                        "width": "98vw",
+                                        "source": "${payload.recipe.properties.sources[4].url}",
+                                        "scale": "best-fill",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[4].title}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page9": {
+                
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Container",
+                                "grow": 1,
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingBottom": "3vw",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "source": "${payload.recipe.properties.sources[5].url}",
+                                        "scale": "best-fill",
+                                        "width": "100vw",
+                                        "height": "85vh",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "start",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[5].title}",
+                                        "fontSize": "${payload.recipe.properties.ftsize}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "direction": "row",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingLeft": "2vw",
+                                "paddingRight": "2vw",
+                                "paddingTop": "2vh",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "height": "83vh",
+                                        "width": "98vw",
+                                        "source": "${payload.recipe.properties.sources[5].url}",
+                                        "scale": "best-fill",
+                                        "align": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.sources[5].title}",
+                                        "textAlign": "center",
+                                        "fontStyle": "italic",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page4": {
+                
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "height": "100vh",
+                        "width": "100vw",
+                        "direction": "column",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "height": "20vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "Paradise Explorer",
+                                        "fontSize": "30dp",
+                                        "color": "#FFD700",
+                                        "textAlign": "center",
+                                        "textAlignVertical": "center",
+                                        "paddingTop": "30dp"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Frame",
+                                "borderWidth": "2",
+                                "borderColor": "brown",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "direction": "row",
+                                        "height": "60vh",
+                                        "width": "100vw",
+                                        "justifyContent": "start",
+                                        "alignItems": "center",
+                                        "paddingLeft": "30",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "${payload.recipe.properties.initial.url}",
+                                                "scale": "best-fill",
+                                                "height": "40vh",
+                                                "width": "40vw"
+                                            },
+                                            {
+                                                "type": "Container",
+                                                "direction": "column",
+                                                "height": "60vh",
+                                                "width": "60vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "items": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.dest}",
+                                                        "color": "red",
+                                                        "fontSize": "42dp"
+                                                    },
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "\"popular destinations\"",
+                                                        "fontSize": "20dp"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "AlexaFooter",
+                                "hintText": "Swipe right 👉"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "direction": "column",
+                        "height": "100vh",
+                        "width": "100vw",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "Paradise Explorer",
+                                        "fontSize": "40dp",
+                                        "color": "#FFD700",
+                                        "textAlign": "center",
+                                        "textAlignVertical": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Frame",
+                                "borderWidth": "2",
+                                "borderColor": "brown",
+                                "height": "72vh",
+                                "width": "100vw",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "direction": "row",
+                                        "height": "72vh",
+                                        "width": "100vw",
+                                        "justifyContent": "start",
+                                        "alignItems": "center",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "${payload.recipe.properties.initial.url}",
+                                                "scale": "best-fit",
+                                                "height": "50vh",
+                                                "width": "50vw"
+                                            },
+                                            {
+                                                "type": "Container",
+                                                "direction": "column",
+                                                "height": "72vh",
+                                                "width": "50vw",
+                                                "justifyContent": "center",
+                                                "paddingRight": "30dp",
+                                                "alignItems": "center",
+                                                "items": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.dest}",
+                                                        "color": "red",
+                                                        "fontSize": "62dp"
+                                                    },
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "\"popular destinations\"",
+                                                        "fontSize": "40dp"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "13vh",
+                                "width": "100vw",
+                                "paddingLeft": "30",
+                                "items": [
+                                    {
+                                        "type": "AlexaFooter",
+                                        "hintText": "Swipe right 👉 "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page5": {
+               
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "alignItems": "center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "scale": "best-fill"
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "20vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/inc.jpg",
+                                                "position": "absolute",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "scale": "best-fill"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "width": "75vw",
+                                "height": "65vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "ScrollView",
+                                    "width": "75vw",
+                                    "height": "55vh",
+                                    "item": {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.longtext}",
+                                        "fontSize": "30",
+                                        "textAlign": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "17vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "17vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "17vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Text",
+                                                "text": "${payload.recipe.properties.initial.dest}",
+                                                "color": "#FFD700",
+                                                "fontSize": "30dp",
+                                                "textAlign": "center",
+                                                "width": "80vw",
+                                                "paddingBottom": "20dp",
+                                                "fontStyle": "italic"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "when": "${viewport.width == '1280'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "alignItems": "center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "scale": "best-fill"
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "25vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "25vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "25vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/in_large.jpg",
+                                                "position": "absolute",
+                                                "width": "100vw",
+                                                "height": "25vh",
+                                                "scale": "best-fill"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "width": "90vw",
+                                "height": "60vh",
+                                "paddingTop": "25dp",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "ScrollView",
+                                    "width": "90vw",
+                                    "height": "50vh",
+                                    "item": {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.longtext}",
+                                        "fontSize": "40",
+                                        "textAlign": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "17vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "17vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "17vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Text",
+                                                "text": "${payload.recipe.properties.initial.dest}",
+                                                "color": "#FFD700",
+                                                "fontSize": "52dp",
+                                                "textAlign": "center",
+                                                "width": "80vw",
+                                                "paddingBottom": "20dp",
+                                                "fontStyle": "italic"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "alignItems": "center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "scale": "best-fill"
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "25vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "25vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "25vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/in_large.jpg",
+                                                "position": "absolute",
+                                                "width": "100vw",
+                                                "height": "25vh",
+                                                "scale": "best-fill"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "width": "90vw",
+                                "height": "60vh",
+                                "paddingTop": "25dp",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "ScrollView",
+                                    "width": "90vw",
+                                    "height": "50vh",
+                                    "item": {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.longtext}",
+                                        "fontSize": "30",
+                                        "textAlign": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "17vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "17vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "17vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Text",
+                                                "text": "${payload.recipe.properties.initial.dest}",
+                                                "color": "#FFD700",
+                                                "fontSize": "42dp",
+                                                "textAlign": "center",
+                                                "width": "80vw",
+                                                "paddingBottom": "20dp",
+                                                "fontStyle": "italic"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Page6": {
+                
+                "items": [
+                    {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "height": "100vh",
+                        "width": "100vw",
+                        "direction": "column",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "height": "20vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.dest}",
+                                        "color": "red",
+                                        "fontSize": "35dp"
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.type}",
+                                        "fontSize": "20dp"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Frame",
+                                "borderWidth": "2",
+                                "borderColor": "brown",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "direction": "column",
+                                        "height": "65vh",
+                                        "width": "100vw",
+                                        "justifyContent": "center",
+                                        "alignItems": "center",
+                                        "items": [
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg1}",
+                                                        "fontSize": "30dp"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg2}",
+                                                        "fontSize": "30dp"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "paddingTop": "35dp",
+                                "item": [
+                                    {
+                                        "type": "AlexaFooter",
+                                        "hintText": "👈  swipe left "
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "when": "${viewport.width == '1024'}",
+                        "type": "Container",
+                        "height": "100vh",
+                        "width": "100vw",
+                        "direction": "column",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "height": "20vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.dest}",
+                                        "color": "red",
+                                        "fontSize": "50dp"
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.type}",
+                                        "fontSize": "30dp"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Frame",
+                                "borderWidth": "2",
+                                "borderColor": "brown",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "direction": "column",
+                                        "height": "65vh",
+                                        "width": "100vw",
+                                        "justifyContent": "center",
+                                        "alignItems": "center",
+                                        "items": [
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg1}",
+                                                        "fontSize": "40dp"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg2}",
+                                                        "fontSize": "40dp"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "paddingTop": "20dp",
+                                "paddingLeft": "30dp",
+                                "item": [
+                                    {
+                                        "type": "AlexaFooter",
+                                        "hintText": "👈  swipe left "
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "when": "${viewport.width == '1280'}",
+                        "type": "Container",
+                        "height": "100vh",
+                        "width": "100vw",
+                        "direction": "column",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "height": "20vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.dest}",
+                                        "color": "red",
+                                        "fontSize": "60dp"
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.type}",
+                                        "fontSize": "40dp"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Frame",
+                                "borderWidth": "2",
+                                "borderColor": "brown",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "direction": "column",
+                                        "height": "65vh",
+                                        "width": "100vw",
+                                        "justifyContent": "center",
+                                        "alignItems": "center",
+                                        "items": [
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg1}",
+                                                        "fontSize": "40dp"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg2}",
+                                                        "fontSize": "40dp"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "paddingTop": "20dp",
+                                "paddingLeft": "30dp",
+                                "item": [
+                                    {
+                                        "type": "AlexaFooter",
+                                        "hintText": "👈  swipe left "
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "height": "100vh",
+                        "width": "100vw",
+                        "direction": "column",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "scale": "best-fill",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh"
+                            },
+                            {
+                                "type": "Container",
+                                "height": "20vh",
+                                "width": "100vw",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.dest}",
+                                        "color": "red",
+                                        "fontSize": "35dp"
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "text": "${payload.recipe.properties.initial.type}",
+                                        "fontSize": "20dp"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Frame",
+                                "borderWidth": "2",
+                                "borderColor": "brown",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "direction": "column",
+                                        "height": "65vh",
+                                        "width": "100vw",
+                                        "justifyContent": "center",
+                                        "alignItems": "center",
+                                        "items": [
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg1}",
+                                                        "fontSize": "30dp"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Container",
+                                                "height": "20vh",
+                                                "width": "100vw",
+                                                "justifyContent": "center",
+                                                "alignItems": "center",
+                                                "item": [
+                                                    {
+                                                        "type": "Text",
+                                                        "text": "${payload.recipe.properties.initial.msg2}",
+                                                        "fontSize": "30dp"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Container",
+                                "height": "15vh",
+                                "width": "100vw",
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "paddingTop": "35dp",
+                                "item": [
+                                    {
+                                        "type": "AlexaFooter",
+                                        "hintText": "👈  swipe left "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "MyPager": {
+                "items": [
+                    {
+                        "type": "Pager",
+                        "id": "pagerComponentId",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Page4"
+                            },
+                            {
+                                "type": "Page1"
+                            },
+                            {
+                                "type": "Page2"
+                            },
+                            {
+                                "type": "Page3"
+                            },
+                            {
+                                "type": "Page7"
+                            },
+                            {
+                                "type": "Page8"
+                            },
+                            {
+                                "type": "Page9"
+                            },
+                            {
+                                "type": "Page5"
+                            },
+                            {
+                                "type": "Page6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "mainTemplate": {
+            "parameters": [
+                "payload"
+            ],
+            "items": [
+                {
+                    "type": "MyPager"
+                }
+            ]
+        }
+    }

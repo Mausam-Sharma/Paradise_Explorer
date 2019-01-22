@@ -1,0 +1,213 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "paradise explorer",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "quit",
+                        "exit"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "regionIntent",
+                    "slots": [
+                        {
+                            "name": "regionvar",
+                            "type": "regionSlot"
+                        }
+                    ],
+                    "samples": [
+                        "{regionvar} region",
+                        "{regionvar} india",
+                        "{regionvar}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "exploreIntent",
+                    "slots": [
+                        {
+                            "name": "exploreSlot",
+                            "type": "exploreType"
+                        }
+                    ],
+                    "samples": [
+                        "explore {exploreSlot}",
+                        "{exploreSlot}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "explore",
+                    "slots": [],
+                    "samples": [
+                        "explore"
+                    ]
+                },
+                {
+                    "name": "region",
+                    "slots": [],
+                    "samples": [
+                        "region"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "regionSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "north east",
+                                "synonyms": [
+                                    "north eastern"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "central",
+                                "synonyms": [
+                                    "center",
+                                    "centre"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "west",
+                                "synonyms": [
+                                    "western"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "east",
+                                "synonyms": [
+                                    "eastern"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "south",
+                                "synonyms": [
+                                    "southern"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "north",
+                                "synonyms": [
+                                    "northern"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "exploreType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "site",
+                                "synonyms": [
+                                    "sites"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "heritage"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "heritage site",
+                                "synonyms": [
+                                    "heritage sites"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "food and cuisine",
+                                "synonyms": [
+                                    "food and cuisines"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cuisine",
+                                "synonyms": [
+                                    "cuisines"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "food"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "destination",
+                                "synonyms": [
+                                    "destinations"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "popular"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "popular destination",
+                                "synonyms": [
+                                    "popular destinations"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

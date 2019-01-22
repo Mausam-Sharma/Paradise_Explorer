@@ -1,0 +1,699 @@
+{
+        "type": "APL",
+        "version": "1.0",
+        "theme": "dark",
+        "import": [
+            {
+                "name": "alexa-layouts",
+                "version": "1.0.0"
+            }
+        ],
+        "resources": [
+        	{
+            	"description": "All page resources",
+            	"strings": {
+                	"pagesBackground": "https://s3.amazonaws.com/explore-paradise-alexa/assets/background.png"
+            	}
+        	}
+        ],
+        "styles": {},
+        "layouts": {},
+        "mainTemplate": {
+            "parameters": [
+                "payload"
+            ],
+            "items": [
+                {
+                        "when": "${viewport.shape == 'round'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "alignItems": "center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "scale": "best-fill"
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "20vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/inc.jpg",
+                                                "position": "absolute",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "scale": "best-fill"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "height": "5vh",
+                                "width": "100vw",
+                                "item": {
+                                    "type": "Image",
+                                    "source": "@pagesBackground",
+                                    "width": "100vw",
+                                    "height": "5vh"
+                                }
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/but.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Popular Destinations",
+                                                            "color": "black",
+                                                            "fontSize": "27",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "popular"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/but_yellow.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Heritage Sites",
+                                                            "color": "black",
+                                                            "fontSize": "27",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "heritage"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/buty.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Food and Cuisines",
+                                                            "color": "black",
+                                                            "fontSize": "27",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "food"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    },
+                {
+                        "when": "${viewport.width == '1280'}",
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "alignItems": "center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "scale": "best-fill"
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "20vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/inc.jpg",
+                                                "position": "absolute",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "scale": "best-fill"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "height": "5vh",
+                                "width": "100vw",
+                                "item": {
+                                    "type": "Image",
+                                    "source": "@pagesBackground",
+                                    "width": "100vw",
+                                    "height": "5vh"
+                                }
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/but.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Popular Destinations",
+                                                            "color": "black",
+                                                            "fontSize": "37",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "popular"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/but_yellow.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Heritage Sites",
+                                                            "color": "black",
+                                                            "fontSize": "37",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "heritage"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/buty.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Food and Cuisines",
+                                                            "color": "black",
+                                                            "fontSize": "37",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "food"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    },
+                {
+                        "type": "Container",
+                        "direction": "column",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "alignItems": "center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@pagesBackground",
+                                "position": "absolute",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "scale": "best-fill"
+                            },
+                            {
+                                "type": "Container",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "item": {
+                                    "type": "Frame",
+                                    "width": "100vw",
+                                    "height": "20vh",
+                                    "borderWidth": "4dp",
+                                    "borderColor": "brown",
+                                    "item": {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/inc.jpg",
+                                                "position": "absolute",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "scale": "best-fill"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Container",
+                                "height": "5vh",
+                                "width": "100vw",
+                                "item": {
+                                    "type": "Image",
+                                    "source": "@pagesBackground",
+                                    "width": "100vw",
+                                    "height": "5vh"
+                                }
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/but.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Popular Destinations",
+                                                            "color": "black",
+                                                            "fontSize": "27",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "popular"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/but_yellow.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Heritage Sites",
+                                                            "color": "black",
+                                                            "fontSize": "27",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "heritage"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            },
+                            {
+                                
+                                "type": "Container",
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "width": "100vw",
+                                "height": "20vh",
+                                "items":[
+                                    {
+                                        "type": "Frame",
+                                        "width": "100vw",
+                                        "height": "20vh",
+                                       
+                                        "items":[
+                                            {
+                                                "type": "Container",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "100vw",
+                                                "height": "20vh",
+                                                "items":[
+                                                    {   
+                                                        "type": "Image",
+                                                        "source": "https://s3.amazonaws.com/explore-paradise-alexa/assets/buty.png",
+                                                        "height": "20vh",
+                                                        "width": "70vw",
+                                                        "scale": "fill",
+                                                        "position" : "absolute"
+                                            
+                                                    },
+                                                    {
+                                                        "type": "TouchWrapper",
+                                                        "item": {
+                                                            "type": "Text",
+                                                            "text": "Food and Cuisines",
+                                                            "color": "black",
+                                                            "fontSize": "27",
+                                                            "fontWeight": "bold"
+                                                        },
+                                                        "onPress": {
+                                                            "type": "SendEvent",
+                                                            "arguments": [
+                                                                "exploreEvent",
+                                                                "food"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                                
+                                        ] 
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                
+                
+
+            ]
+        }
+}

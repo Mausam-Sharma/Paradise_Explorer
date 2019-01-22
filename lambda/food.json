@@ -1,0 +1,359 @@
+{
+    "north": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/shahi.bmp",
+                        "dest": "Shahi Paneer",
+                        "type": "\"North Indian Dish\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext": "Preparation of paneer, cottage cheese, in a thick gravy made up of cream, tomatoes, and spices from the Indian subcontinent. It is mainly eaten with roti, naan, rice, other bread. This quick North Indian delicacy is a must try and is a perfect go to recipe for special occasions. Paneer is the word for cottage cheese, and shahi means royal. Creamy, aromatic and rich in taste, this is one of the best paneer recipes that can be cooked in parties.",
+                        "shorttext": "Shahi Paneer, Preparation of paneer, cottage cheese, in a thick gravy made up of cream, tomatoes, and spices from the Indian subcontinent. It is mainly eaten with roti, naan, rice, other bread."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/shahi_paneer.jpg",
+                        "title": "Shahi Paneer"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/saag.bmp",
+                        "dest": "Sarson Da Saag",
+                        "type": "\"North Indian Dish\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext": "A winter and spring delicacy, Sarson da saag is a quintessential Punjabi dish that contains a healthy dose of mustard leaves, green chilies and is rich in clarified butter. It is served with Makki-di-Roti, bread made from corn flour. The dish is regarded as the traditional way to prepare saag and is usually served with makki di roti ,literally \"unleavened cornbread\".It can be topped with either Makkhan (unprocessed white butter or processed yellow butter) or more traditionally with ghee (clarified butter). Some spinach (called palak in Hindi) may be added to enhance colour and thicken the dish, though this may alter the flavor. Also added some bathua, sarson greens, onion, tomato and all ground spice. Mustard is a winter and spring delicacy, and its relative abundance in Punjab, Rajasthan, and North-East has made it one of the most popular dishes in those regions.",
+                        "shorttext": "A winter and spring delicacy, Sarson da saag is a quintessential Punjabi dish that contains a healthy dose of mustard leaves, green chilies and is rich in clarified butter. It is served with Makki-di-Roti, bread made from corn flour."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/sarson.jpg",
+                        "title": "Sarson Da Saag"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/butter.bmp",
+                        "dest": "Butter Chicken",
+                        "type": "\"North Indian Dish\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext": "Butter chicken or murgh makhani is made with pureed juicy tomatoes, spices cooked in butter, dried fenugreek leaves and topped up with fresh cream. The dish has its roots in Moti Mahal Daryaganj. It was developed by three Indians, Kundan Lal Jaggi, Kundan Lal Gujral and Thakur Dass all Punjabi Hindu restaurateurs who were the founders of Moti Mahal restaurant in Delhi, India. The dish was created by the three partners at their restaurant in Delhi in the 1950s. The dish was made \"by chance\" by mixing the leftover chicken in a tomato gravy, rich in butter and cream.",
+                        "shorttext": "Butter chicken or murgh makhani, is made with pureed juicy tomatoes, spices cooked in butter, dried fenugreek leaves and topped up with fresh cream."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/butterchicken.jpg",
+                        "title": "Butter Chicken"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/chole.bmp",
+                        "dest": "Chole Bhature",
+                        "type": "\"North Indian Dish\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext": "Perhaps one of the most popular dishes in Delhi, Chole Bhature is a quintessential go to snack for many people. It is a combination of chana masala - (spicy chickpeas) , and fried bread called bhatura. It is usually eaten as breakfast, and sometimes accompanied with lassi. Chole bhature is served with onions, pickle and chutney.",
+                        "shorttext": "Chole Bhature, perhaps one of the most popular dishes in Delhi, Chole Bhature is a quintessential go to snack for many people. It is a combination of chana masala, and fried bread called bhatura. Chole bhature is served with onions, pickle and chutney."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/chole-bhature.jpg",
+                        "title": "Chole Bhature"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/chaat.bmp",
+                        "dest": "Chaat",
+                        "type": "\"North Indian Dish\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext": "The real flavour of Delhi's street food lies in the chaat. The original chaat is a mixture of potato pieces, crispy fried bread, Dahi Bhalla, gram and tangy-salty spices. The mixture is garnished with sour home-made Indian chilly and saunth (dried ginger and tamarind sauce), fresh green coriander leaves and yoghurt.",
+                        "shorttext": " Chaat, the real flavour of Delhi's street food lies in it. The original chaat is a mixture of potato pieces, crispy fried bread, Dahi Bhalla, gram and tangy-salty spices. The mixture is garnished with sour home-made Indian chilly and saunth , the dried ginger and tamarind sauce, fresh green coriander leaves and yoghurt."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/north/food/chaat.jpg",
+                        "title": "Chaat"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "west": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/food/paani.bmp",
+                        "dest": "Pani-Puri",
+                        "type": "\"Dish from western India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"Feel the blast of flavours as this spicy water filled crisp dough balls invade your taste buds. The Panipuri is a common street snack in several cities of India. It is made from flour which is fried into puffed balls, filled with spiced cumin and mint water, onions, potatoes and chickpeas",
+                        "shorttext": " The Pani puri is a common street snack in several cities of India. It is made from flour which is fried into puffed balls, filled with spiced cumin and mint water, onions, potatoes and chickpeas"
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/food/Pani_Puri.jpg",
+                        "title": "Pani-Puri"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/food/pav.bmp",
+                        "dest": "Pav Bhaji",
+                        "type": "\"Dish from western India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"This Maharashtrian delicacy which is served in big hotels to road-side eateries has a savoury taste. It is a thick vegetable curry made from seasonal vegetables, potatoes, tomatoes and onions served with 'Pav' which is bread and is topped with butter and eaten hot.",
+                        "shorttext": "Pav Bhaji, it is a thick vegetable curry made from seasonal vegetables, served with Pav, which is bread and is topped with butter and eaten hot."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/west/food/pav_bhaji.jpg",
+                        "title": "Pav Bhaji"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "northeast": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/food/mosdeng.bmp",
+                        "dest": "Mosdeng Serma",
+                        "type": "\"Dish from north-east India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"Mosdeng Serma is a spicy tomato 'chutney' made from Berma (dried and fermented fish), red chillies, garlic, onion, tomatoes and coriander leaves. It is garnished with coriander leaves and relished with rice.",
+                        "shorttext": "Mosdeng Serma is a spicy tomato chutney made from Berma, dried and fermented fish, red chillies, garlic, onion, tomatoes and coriander leaves."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/food/Mosdeng-Serma.jpg",
+                        "title": "Mosdeng Serma"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/food/muya.bmp",
+                        "dest": "Muya Awandru",
+                        "type": "\"Dish from north-east India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"Muya Awandru is a traditional Tripuri food item that is made from bamboo shoot, rice flour and berma (dried and fermented fish). It does not have a spicy taste and sometimes papaya, jack fruit and pork are added to this dish to enhance its taste.",
+                        "shorttext": "Muya Awandru is a traditional Tripuri food item that is made from bamboo shoot, rice flour and berma dried and fermented fish."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/northeast/food/muya_awandru.jpg",
+                        "title": "Muya Awandru"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "central": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/food/poha.bmp",
+                        "dest": "Poha",
+                        "type": "\"Dish from central India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"While poha is a popular breakfast eaten all across the country, it originated in the state of Madhya Pradesh. It comprises flattened rice and veggies such as onion, tomato, and potato, and curry leaves are used to give it a special aroma. It is then topped with lemon juice and coriander leaves and served with green chilies. You can make the poha even tastier by adding namkeen. You will want to try this dish in the city of Indore. So, when you visit, make sure poha is on the menu of the restaurant where you are dining.",
+                        "shorttext": "poha is a popular breakfast eaten all across the country, it originated in the state of Madhya Pradesh. It comprises flattened rice and veggies such as onion, tomato, and potato, and curry leaves are used to give it a special aroma."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/food/Poha.jpg",
+                        "title": "Poha"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/food/bhutta.bmp",
+                        "dest": "Bhutte Ka Kees",
+                        "type": "\"Dish from central India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"This typical street food of Madhya Pradesh is mainly bhutta (corn). If you’re someone who doesn’t like your food to be too spicy, then bhutte ka kees is an ideal dish for you to enjoy here. The recipe features grated corn cooked with all the necessary Indian spices and then simmered in milk to add a slightly sweet taste. Green chilies and mustard seeds are also added to give it a special flavor. ",
+                        "shorttext": "Bhutte Ka Kees is grated corn cooked with all the necessary Indian spices and then simmered in milk to add a slightly sweet taste."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/central/food/bhutte_ka_kees.jpg",
+                        "title": "Bhutte Ka Kees"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+	"east": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/food/ras.bmp",
+                        "dest": "Rasogolla",
+                        "type": "\"Dish from eastern India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"Rasogolla is made from ball shaped dumplings of chena (an Indian cottage cheese) and semolina dough, cooked in light syrup made of sugar.",
+                        "shorttext": "Rasogolla is made from ball shaped dumplings of chena , an Indian cottage cheese, and semolina dough, cooked in light syrup made of sugar."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/food/Rasgulla.jpg",
+                        "title": "Rasogolla"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/food/san.bmp",
+                        "dest": "Sandesh",
+                        "type": "\"Dish from eastern India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"Sandesh is a Bengali dessert created with milk and sugar. Some recipes of Sandesh call for the use of chhena or paneer (which is made by curdling the milk and separating the whey from it) instead of milk itself.",
+                        "shorttext": "Sandesh is a Bengali dessert created with milk and sugar."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/east/food/sandesh.jpg",
+                        "title": "Sandesh"
+                        }
+                    ]
+                }  
+            }
+        }
+    ],
+    "south": [
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/food/dos.bmp",
+                        "dest": "Masala Dosa",
+                        "type": "\"Dish from southern India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"Masala dosa is the most popular South Indian dish loved by people across world. It is found all over India and in few overseas countries. Dosa batter is made by soaking rice, urud dal and lentils overnight and then grinding the same to form a batter. The fermented batter is spread in a pan with a thin round layer, and oil/butter is added to make it crispy. Once the dosa is ready the stuffing inside is filled in the centre. The stuffing is made with boiled potatoes with a seasoning of mustard seeds and green chilli. Further for garnished one can use coriander leaves and lemon juice. This masala dosa is served hot with sambar and different types of chutney.",
+                        "shorttext": "Masala dosa is the most popular South Indian dish loved by people across world. It is found all over India and in few overseas countries."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/food/dosa.jpg",
+                        "title": "Masala Dosa"
+                        }
+                    ]
+                }  
+            }
+        },
+        {
+            "recipe": {
+                "type": "object",
+                "properties": {
+                    "ftsize": "20dp",
+                    "initial": {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/food/idli.bmp",
+                        "dest": "Rava Idly",
+                        "type": "\"Dish from southern India\"",
+                        "msg1": "Say \" next \" for next item",
+                        "msg2": "Say \" back \" for last item",
+                        "longtext":"Rava idly is mostly prepared for breakfast using semolina as main ingredient. It is one of the best variant of idly found all over South India. Heat 2 tsp ghee/oil in a pan, add rava/sooji and roast it until aromatic. Keep this aside, and pour another tsp oil in the same pan to fry some cashew nuts. Add fried cashew nuts to the roasted rava. Now in the same pan, add one tsp oil and sprinkle some mustard seeds, once start cracking, then add curry leaves, few chana dal and asafoetida, fry all things for few minutes. Add this mix to the prepared rava, to form a smooth paste add yogurt with green chillies, salt and ginger for flavour. Keep it aside for half n hour and prepare idly in the steamer by greasing idly mould beforehand. Cook for 10 minutes and serve hot with coconut chutney and sambar.",
+                        "shorttext": "Rava idly is mostly prepared for breakfast using semolina as main ingredient. It is one of the best variant of idly found all over South India."
+                    },
+                    "sources": [
+                        {
+                        "url": "https://s3.amazonaws.com/explore-paradise-alexa/south/food/Rava-Idly.jpg",
+                        "title": "Rava Idly"
+                        }
+                    ]
+                }  
+            }
+        }
+    ]
+}
